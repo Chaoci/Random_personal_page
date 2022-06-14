@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Noto+Sans+TC&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0 auto;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-align: left;
+  font-size: 80px;
+}
+
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+.wrap .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h3 {
+  margin-top: 48px;
+  font-size: 32px;
+  font-weight: medium;
+  display: block;
+  display: flex;
+  align-items: center;
+}
+h3 .en {
+  font-size: 24px;
+  color: #A00404;
+  margin-left: 8px;
+}
+
+.header .name {
+  border-bottom: 2px solid #000000;
+  padding-bottom: 10px;
+}
+.header .img {
+  margin-top: 40px;
+}
+
+.personal-inf p {
+  margin-top: 24px;
+  font-size: 24px;
+  font-family: "PingFangTC-Medium", sans-serif;
+}
+.personal-inf #formb {
+  margin-bottom: 72px;
+}
+
+.education p {
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "PingFangTC-Medium", sans-serif;
+}
+.education #formb {
+  margin-bottom: 72px;
+}
+
+.skills {
+  background: #415165;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.skills h3 {
+  display: block;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin-top: 24px;
+  padding-bottom: 24px;
+  font-weight: medium;
+  font-size: 32px;
+  color: #ffffff;
+  font-family: "PingFangTC-Medium", sans-serif;
+  border-bottom: 1px solid #ffffff;
+}
+.skills h3 .en {
+  color: #ffffff;
+  font-size: 24px;
+}
+.skills ul {
+  border-left: 1px solid #ffffff;
+  margin-top: 48px;
+  margin-bottom: 52px;
+  height: 80%;
+}
+.skills ul li {
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-right: 20px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #ffffff;
+}
+.skills ul #formt {
+  margin-top: 0;
+}
+
+.work-experience ul {
+  border-left: 1px solid lightgray;
+  margin-top: 24px;
+  margin-left: 24px;
+  padding-left: 24px;
+  margin-bottom: 72px;
+}
+.work-experience ul li {
+  margin-bottom: 32px;
+  font-size: 24px;
+  font-weight: medium;
+}
+.work-experience ul li img {
+  margin-top: 8px;
+}
+.work-experience ul li p {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: #415165;
+  padding-bottom: 48px;
+}
+.footer h3 {
+  display: block;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-weight: medium;
+  font-size: 32px;
+  color: #ffffff;
+  font-family: "PingFangTC-Medium", sans-serif;
+  border-bottom: 1px solid #ffffff;
+}
+.footer h3 .en {
+  color: #ffffff;
+  font-size: 24px;
+}
+.footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #FFFFFF;
+  line-height: 2;
+}
+.footer .logo ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer .logo ul #facebook {
+  margin-right: 24px;
+}
+.footer .logo ul #ig {
+  margin-right: 24px;
+}/*# sourceMappingURL=css.css.map */

@@ -1,0 +1,41 @@
+.skills{
+    background: #415165;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h3{
+        display: block;
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        margin-top: 24px;
+        padding-bottom: 24px;
+        font-weight: medium;
+        font-size: 32px;
+        color:#ffffff;
+        font-family: "PingFangTC-Medium", sans-serif;
+        border-bottom: 1px solid #ffffff;
+        .en{
+            color:#ffffff;
+            font-size: 24px;
+        }
+    }
+    ul{
+        border-left: 1px solid #ffffff;
+        margin-top: 48px;
+        margin-bottom: 52px;
+        height: 80%;
+        li{
+            margin-left: 20px;
+            margin-top: 20px;
+            padding-right: 20px;
+            font-weight: 300;
+            font-size: 24px;
+            color: #ffffff;
+        }
+        #formt{
+            margin-top: 0;
+        }
+    }
+}

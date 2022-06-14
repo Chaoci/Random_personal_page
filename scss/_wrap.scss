@@ -1,0 +1,21 @@
+.wrap{
+    width: 100%;
+    margin: 0 auto;
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+h3{
+    margin-top: 48px;
+    font-size: 32px;
+    font-weight: medium;
+    display: block;
+    display: flex;
+    align-items: center;
+    .en{
+        font-size: 24px;
+        color:#A00404;
+        margin-left: 8px;
+    }
+}

@@ -1,0 +1,43 @@
+.footer{
+    background-color: #415165;
+    padding-bottom: 48px;
+    h3{
+        display: block;
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        font-weight: medium;
+        font-size: 32px;
+        color:#ffffff;
+        font-family: "PingFangTC-Medium", sans-serif;
+        border-bottom: 1px solid #ffffff;
+        .en{
+            color:#ffffff;
+            font-size: 24px;
+        }
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        color: #FFFFFF;
+        line-height: 2;
+    }
+    .logo{
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            #facebook{
+                margin-right: 24px;
+            }
+            #ig{
+                margin-right: 24px;
+            }
+        }
+    }
+}
